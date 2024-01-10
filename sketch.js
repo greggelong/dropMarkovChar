@@ -18,7 +18,7 @@ let intext; //text from textbox
 let myoutput;
 let clearit;
 let resetit;
-let readfrombegin;
+let read; // for speaking
 let txt;
 
 // javascript object ngram and array that follows it
@@ -31,7 +31,7 @@ function setup() {
   myoutput = select("#out");
   clearit = select("#clearit");
   resetit = select("#resetit");
-  readfrombegin = select("#readfrombegin");
+  read = select("#readout");
 
   submitButton = select("#submit");
   //submitButton.mousePressed(diit);
@@ -158,7 +158,8 @@ function markovit() {
   //createP(result3)
   //createP("MARKOV GENERATED CHILDHOOD HALLUCINATION "+ result.length)
   pholder.html(result3);
-  //foo.speak(result)
+
+  if (read.checked()) foo.speak(result3);
 }
 
 function makereset() {
