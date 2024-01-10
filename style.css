@@ -1,0 +1,23 @@
+.content {
+    width: 800px; 
+    margin: 0 auto;
+  }
+html, body {
+height: 100%;
+}
+
+body {
+padding: 3%;
+
+  color: black;
+  background-color:whitesmoke;
+  font-size: medium;
+  /*text-align: center;*/
+  font-family: monospace; 
+/* This centers our sketch horizontally. */
+justify-content: center;
+text-align: center;
+
+/* This centers our sketch vertically.  
+align-items: center;*/
+}
