@@ -27,7 +27,7 @@ function setup() {
   noCanvas();
   //nslide = createSlider(1, 10, 5, 1)
   //nslide.changed(makeLM)
-  intxt = select("#intxt");
+  intext = select("#intxt");
   myoutput = select("#out");
   clearit = select("#clearit");
   resetit = select("#resetit");
@@ -36,7 +36,7 @@ function setup() {
   submitButton = select("#submit");
   //submitButton.mousePressed(diit);
   clearit.mousePressed(makeclear);
-  //resetit.mousePressed(makereset);
+  resetit.mousePressed(makereset);
 
   sel = select("#ngramsel");
   sel.option(10);
@@ -51,7 +51,8 @@ function setup() {
   sel.option(1);
   sel.selected(5);
   sel.changed(makeLM);
-  button = createButton("generate");
+  button = createButton("GENERATE");
+  button.style("font-size", "30px");
   button.mouseReleased(doit);
   nholder = createP("n = " + sel.option());
   pholder = createP("OUTPUT");
@@ -62,7 +63,7 @@ function setup() {
 }
 
 function makeclear() {
-  intxt.value("");
+  intext.value("");
   console.log("Clear");
 }
 
@@ -72,8 +73,8 @@ function doit() {
 }
 
 function makeLM() {
-  print(intxt.value());
-  txt = intxt.value().trim().replaceAll("\r", " ").replaceAll("\n", " "); // convert the list of strings into one big string
+  print(intext.value());
+  txt = intext.value().trim().replaceAll("\r", " ").replaceAll("\n", " "); // convert the list of strings into one big string
   // needed to clear the object
   ngrams = {};
   // get the order from select
@@ -158,4 +159,8 @@ function markovit() {
   //createP("MARKOV GENERATED CHILDHOOD HALLUCINATION "+ result.length)
   pholder.html(result3);
   //foo.speak(result)
+}
+
+function makereset() {
+  intext.value("");
 }
