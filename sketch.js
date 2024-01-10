@@ -162,5 +162,55 @@ function markovit() {
 }
 
 function makereset() {
-  intext.value("");
+  intext.value(`
+  Of Man’s first disobedience, and the fruit
+  Of that forbidden tree whose mortal taste
+  Brought death into the World, and all our woe,
+  With loss of Eden, till one greater Man
+  Restore us, and regain the blissful seat,
+  Sing, Heavenly Muse, that, on the secret top
+  Of Oreb, or of Sinai, didst inspire
+  That shepherd who first taught the chosen seed
+  In the beginning how the heavens and earth
+  Rose out of Chaos: or, if Sion hill
+  Delight thee more, and Siloa’s brook that flowed
+  Fast by the oracle of God, I thence
+  Invoke thy aid to my adventurous song,
+  That with no middle flight intends to soar
+  Above th’ Aonian mount, while it pursues
+  Things unattempted yet in prose or rhyme.
+  And chiefly thou, O Spirit, that dost prefer
+  Before all temples th’ upright heart and pure,
+  Instruct me, for thou know’st; thou from the first
+  Wast present, and, with mighty wings outspread,
+  Dove-like sat’st brooding on the vast Abyss,
+  And mad’st it pregnant: what in me is dark
+  Illumine, what is low raise and support;
+  That, to the height of this great argument,
+  I may assert Eternal Providence,
+  And justify the ways of God to men.
+  Say first—for Heaven hides nothing from thy view,
+  Nor the deep tract of Hell—say first what cause
+  Moved our grand parents, in that happy state,
+  Favoured of Heaven so highly, to fall off
+  From their Creator, and transgress his will
+  For one restraint, lords of the World besides.
+  Who first seduced them to that foul revolt?
+  Th’ infernal Serpent; he it was whose guile,
+  Stirred up with envy and revenge, deceived
+  The mother of mankind, what time his pride
+  Had cast him out from Heaven, with all his host
+  Of rebel Angels, by whose aid, aspiring
+  To set himself in glory above his peers,
+  He trusted to have equalled the Most High,
+  If he opposed, and with ambitious aim
+  Against the throne and monarchy of God,
+  Raised impious war in Heaven and battle proud,
+  With vain attempt. Him the Almighty Power
+  Hurled headlong flaming from th’ ethereal sky,
+  With hideous ruin and combustion, down
+  To bottomless perdition, there to dwell
+  In adamantine chains and penal fire,
+  My recent work involves me as an artist-teacher hosting pedagogical projects with student participants within higher education contexts in the UK and China, where questions and phenomena related to the politics of production in art schools are explored. Here, by enacting participatory projects in and through the authoritative mechanism of 'school,' I aim to complicate imaginary narratives of 'educational empowerment' and 'creative freedom' by revealing the ways in which artistic labor is delegated, incentivized, and quantified within institutional contexts.
+​Taking a social science approach to facilitating workshops, approaches ranging from experimental, absurdist to disorienting are employed as methods of provocation and condensed reflections of real-world phenomena. The 'work' then is intended to go beyond being distilled as an obscure and personalized artistic product or statement and instead becomes social, explicit in its function as a set of pedagogical techniques. Implicating the schooling system and the status of the teacher in participatory projects, the following phenomena related to participation in cultural and academic contexts are addressed: product-oriented participation, participation as alienated labor, non-voluntary participation, participation as conformity, participation as formality, and participation as mass spectacle.`);
 }
